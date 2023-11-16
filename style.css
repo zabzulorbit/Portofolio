@@ -1,0 +1,130 @@
+body{
+    /* display: flex; */
+    /* margin: 0; */
+    /* height: 100vh; */
+    background-color: #13072E;
+    /* color: #ffffff; */
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 100%;
+    /* height: 100vh; */
+    background-color: #13072E;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+
+.navbar {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    min-width: 100%;
+    top: 0;
+    z-index: 1;
+}
+
+.logo h1 {
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 90px;
+
+}
+
+.logo img {
+    width: 120px;
+    margin-left: 25px;
+}
+.menu ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.menu ul li {
+    margin-right: 1px;
+}  
+.menu ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    padding-right: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: bold;  
+}
+.menu ul li:last-child a {
+    font-weight: bold;
+    padding-right: 180px;
+}
+
+
+.menu ul li a:hover {
+    color: #723ee1; 
+}
+
+.card1 {
+    display: flex;
+    align-items: center;
+    height: 380px;
+    width: 1200px;
+    padding: 50px 30px 50px 20px;
+    border-radius: 24px;
+    background: linear-gradient(333deg, rgba(63, 33, 130, 1) 0%, rgba(19, 7, 46, 1) 100%);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 110px;
+
+}
+
+p{
+    color: #ffffff;
+    font-size: 18px;
+}
+.image{
+    width: 250px;
+    height: 250px;
+    background-image: url(./Zull.jpg);
+    border-radius: 150px;
+    background-size: cover; 
+    background-position: center;
+    margin-left: 350px;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.about{
+    margin-left: 20px;
+}
+.btnProjects {
+    width: 200px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+.btnProjects a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 25%;
+    
+}
+/* Batas Card */
+.projectContainer{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: aqua;
+    width: 100%;
+    height: 200px;
+}
+.projectContainer > div{
+    width: 100px;
+    background-color: #ffffff;
+}
